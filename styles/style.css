@@ -1,0 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar {
+  width: 100%;
+  border: 1px solid #ec5242;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+}
+/*# sourceMappingURL=style.css.map */
