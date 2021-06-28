@@ -3,5 +3,13 @@
   margin: 0;
 }
 
-@import './variables';
-@import './nav';
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+
+@import './colors';
+@import './header';
+@import './fonts';
