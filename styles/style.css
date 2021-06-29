@@ -489,7 +489,7 @@
 
 @font-face {
   font-family: "cocogoose-trial";
-  src: url(../cocogoose/cocogoose_trial.ttf);
+  src: url(../fonts/cocogoose-webfont.woff);
 }
 
 .about-container {
