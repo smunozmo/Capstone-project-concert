@@ -1,3 +1,8 @@
+@import './colors';
+@import './home';
+@import './fonts';
+@import './about';
+
 * {
   padding: 0;
   margin: 0;
@@ -6,10 +11,6 @@
 .main-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  overflow-x: hidden;
 }
-
-@import './colors';
-@import './header';
-@import './fonts';
