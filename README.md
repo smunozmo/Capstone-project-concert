@@ -84,7 +84,6 @@ So far i learned how to:
 <!-- GETTING STARTED -->
 ## Getting Started
 
-* This is just a template for my portfolio.
 * You will not need additional instructions on installing Prerequisites.
 * In case you have node_modules on your folder Add them to .gitignore file before you a push.
 
@@ -103,7 +102,7 @@ This is an example of how to list things you need to use the software and how to
 <!-- 1. Get a free API Key at [https://example.com](https://example.com) -->
 1. Clone the repo
    ```sh
-   git clone https://github.com/jchernandez87/My-Portfolio.git
+   git clone git@github.com:jchernandez87/Capstone-project-concert.git
    ```
 2. Install NPM packages
    ```sh
