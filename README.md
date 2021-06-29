@@ -16,16 +16,16 @@
   <h3 align="center">My Portfolio</h3>
 
   <p align="center">
-    This is my first portfolio template for microverse.
+    My first capstone project for microverse.
     <br />
-    <a href="https://github.com/jchernandez87/My-Portfolio"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/jchernandez87Capstone-project-concert"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://jchernandez87.github.io/My-Portfolio/">View Deploy</a>
+    <a href="https://jchernandez87.github.io/Capstone-project-concert">View Deploy</a>
     ·
-    <a href="https://github.com/jchernandez87/My-Portfolio/issues">Report Bug</a>
+    <a href="https://github.com/jchernandez87/Capstone-project-concert/issues">Report Bug</a>
     ·
-    <a href="https://github.com/jchernandez87/My-Portfolio/issues">Request Feature</a>
+    <a href="https://github.com/jchernandez87/Capstone-project-concert/issues">Request Feature</a>
   </p>
 </p>
 
@@ -62,9 +62,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Home][product-screenshot]](https://example.com)
+[![About][product-screenshot2]](https://example.com)
 
-This is my first portfolio. I'm currently working on the mobile part and the next step will be making it responsive
+This is my first capstone project for microverse.
 
 So far i learned how to:
 * Use correct HTML semantics.
@@ -124,7 +125,7 @@ This is an example of how to list things you need to use the software and how to
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/jchernandez87/My-Portfolio/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/jchernandez87/Capstone-project-concert/issues) for a list of proposed features (and known issues).
 
 
 
@@ -153,7 +154,7 @@ License Free.
 
 Juan Carlos - [@FindMeOnTwitter](https://twitter.com/Juancar70771241) - jchernandez827@gmail.com
 
-Project Link: [https://github.com/jchernandez87/My-Portfolio](https://github.com/jchernandez87/My-Portfolio)
+Project Link: [https://github.com/jchernandez87/My-Portfolio](https://github.com/jchernandez87/Capstone-project-concert)
 
 
 
@@ -169,15 +170,16 @@ Project Link: [https://github.com/jchernandez87/My-Portfolio](https://github.com
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/jchernandez87/My-Portfolio?style=for-the-badge
-[contributors-url]: https://github.com/jchernandez87/My-Portfolio/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/jchernandez87/My-Portfolio?style=for-the-badge
-[forks-url]: https://github.com/jchernandez87/My-Portfolio/network/members
-[stars-shield]: https://img.shields.io/github/stars/jchernandez87/My-Portfolio?style=for-the-badge
-[stars-url]: https://github.com/jchernandez87/My-Portfolio/stargazers
-[issues-shield]: https://img.shields.io/github/issues/jchernandez87/My-Portfolio?style=for-the-badge
-[issues-url]: https://github.com/jchernandez87/My-Portfolio/issues
+[contributors-shield]: https://img.shields.io/github/contributors/jchernandez87/Capstone-project-concert?style=for-the-badge
+[contributors-url]: https://github.com/jchernandez87/Capstone-project-concert/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/jchernandez87/Capstone-project-concert?style=for-the-badge
+[forks-url]: https://github.com/jchernandez87/Capstone-project-concert/network/members
+[stars-shield]: https://img.shields.io/github/stars/jchernandez87/Capstone-project-concert?style=for-the-badge
+[stars-url]: https://github.com/jchernandez87/Capstone-project-concert/stargazers
+[issues-shield]: https://img.shields.io/github/issues/jchernandez87/Capstone-project-concert?style=for-the-badge
+[issues-url]: https://github.com/jchernandez87/Capstone-project-concert/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/juan-carlos-hernandez-200a05175
-[product-screenshot]: assets/readPreview.jpg
+[product-screenshot]: https://user-images.githubusercontent.com/44485810/123847360-2203a100-d8dc-11eb-84dc-78d9cb7d5fa0.jpg
+[product-screenshot2]: https://user-images.githubusercontent.com/44485810/123847390-28921880-d8dc-11eb-9ce4-c6ca8955b6da.jpg
 
