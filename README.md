@@ -13,7 +13,7 @@
     <img src="https://user-images.githubusercontent.com/44485810/121365647-71b70400-c8fe-11eb-8ca7-b8295f16c12a.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">My Portfolio</h3>
+  <h3 align="center">Capstone Project 1</h3>
 
   <p align="center">
     My first capstone project for microverse.
@@ -62,10 +62,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Home][product-screenshot]](https://example.com)
-[![About][product-screenshot2]](https://example.com)
+[![Capstone][product-screenshot]](https://example.com)
 
-This is my first capstone project for microverse.
+The theme for my capstone project is a blues festival.
 
 So far i learned how to:
 * Use correct HTML semantics.
@@ -180,6 +179,5 @@ Project Link: [https://github.com/jchernandez87/My-Portfolio](https://github.com
 [issues-url]: https://github.com/jchernandez87/Capstone-project-concert/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/juan-carlos-hernandez-200a05175
-[product-screenshot]: https://user-images.githubusercontent.com/44485810/123847360-2203a100-d8dc-11eb-84dc-78d9cb7d5fa0.jpg
-[product-screenshot2]: https://user-images.githubusercontent.com/44485810/123847390-28921880-d8dc-11eb-9ce4-c6ca8955b6da.jpg
+[product-screenshot]: https://user-images.githubusercontent.com/44485810/123848605-88d58a00-d8dd-11eb-9db9-8c2bb576301b.png
 
