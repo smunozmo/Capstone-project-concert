@@ -328,7 +328,7 @@
 }
 
 .main-program .btn-container {
-  margin: 22px 0;
+  margin: 22px 0 48px 0;
 }
 
 .main-program .btn-container button {
@@ -344,6 +344,156 @@
 
 .main-program .btn-schedule {
   display: none;
+}
+
+.featured-artists {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.featured-artists .artist-title h3 {
+  margin: 32px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #5f5f5f;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.featured-artists .artist-title h3::after {
+  margin-top: 15px;
+  display: block;
+  position: relative;
+  content: "";
+  height: 1px;
+  width: 40px;
+  background-color: #fa5039;
+}
+
+.featured-artists .artists-container {
+  width: 95vw;
+  row-gap: 24px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+}
+
+.featured-artists .artists-container .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.featured-artists .artists-container .card .card-image-container {
+  width: 35%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.featured-artists .artists-container .card .card-image-container .card-img {
+  width: 110px;
+  height: 110px;
+  background-image: url(../assets/img/banbBack.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.featured-artists .artists-container .card .card-text {
+  width: 65%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  height: 100%;
+}
+
+.featured-artists .artists-container .card .card-text .top-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.featured-artists .artists-container .card .card-text .top-text::after {
+  margin-top: 12px;
+  display: block;
+  position: relative;
+  content: "";
+  height: 2px;
+  width: 18px;
+  background-color: #bebebe;
+}
+
+.featured-artists .artists-container .card .card-text .top-text .top-title {
+  color: #5f5f5f;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.featured-artists .artists-container .card .card-text .top-text .top-genres {
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ff7842;
+  font-style: italic;
+}
+
+.featured-artists .artists-container .card .card-text p {
+  margin-top: 12px;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: #787878;
+  line-height: 18px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -585,6 +735,33 @@
     font-size: 17px;
     line-height: 22px;
     color: white;
+  }
+  .featured-artists .artist-title h3 {
+    font-size: 28px;
+  }
+  .featured-artists .artists-container {
+    width: 80vw;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+    -webkit-column-gap: 24px;
+            column-gap: 24px;
+  }
+  .featured-artists .artists-container .card .card-image-container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .featured-artists .artists-container .card .card-image-container .card-img {
+    height: 150px;
+    width: 150px;
+  }
+  .featured-artists .artists-container .card .card-text {
+    margin-left: 12px;
+  }
+  .featured-artists .artists-container .card .card-text .top-text .top-title {
+    font-size: 20px;
   }
 }
 
