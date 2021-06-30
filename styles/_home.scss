@@ -26,8 +26,10 @@
   flex-direction: column;
   justify-items: center;
   align-items: center;
-  background-color: $softGrey;
-  height: 460px;
+  background-image: url(../assets/img/homeBack.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
   width: 100%;
 
   .head-title {
@@ -285,6 +287,7 @@
     height: 65vh;
     justify-content: flex-start;
     padding-top: 70px;
+    background-position: center;
 
     .head-title {
       width: 80vw;
@@ -353,6 +356,7 @@
             flex-direction: column;
             height: 50%;
             width: 85%;
+            margin-left: 0;
 
             h4 {
               font-size: 20px;
