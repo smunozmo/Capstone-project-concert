@@ -262,6 +262,8 @@
   align-items: center;
 
   .artist-title {
+    margin: 15px 0;
+
     h3 {
       margin: 32px 0;
       display: flex;
@@ -285,7 +287,8 @@
   }
 
   .artists-container {
-    width: 95vw;
+    margin-bottom: 32px;
+    width: 90vw;
     row-gap: 24px;
     display: grid;
     grid-template-columns: 1fr;
@@ -298,22 +301,22 @@
       align-items: center;
 
       .card-image-container {
-        width: 35%;
+        width: 38%;
         display: flex;
         justify-content: flex-start;
         align-items: center;
         
         .card-img {
-          width: 110px;
+          width: 120px;
           height: 110px;
-          background-image: url(../assets/img/banbBack.jpeg);
+          background-position: center center;
           background-repeat: no-repeat;
           background-size: cover;
         }
       }
 
       .card-text {
-        width: 65%;
+        width: 60%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -361,6 +364,33 @@
       }
     }
   }
+
+  .more-btn {
+    margin: 0 0 24px 0;
+    width: 90vw;
+    
+    .view-btn {
+      font-family: 'Lato', sans-serif;
+      font-weight: 600;
+      color: #787878;
+      width: 100%;
+      background-color: transparent;
+      padding: 12px;
+      border: 1px solid #bebebe;
+      i {
+        margin-left: 8px;
+        color: $primaryRed;
+      }
+    }
+  }
+}
+
+.sponsors-home {
+  display: none;
+}
+
+.footer-home {
+  display: none;
 }
 
 @media only screen and (min-width: 768px) {
@@ -554,6 +584,7 @@
     .btn-schedule {
       display: block;
       margin-top: 42px;
+      margin-bottom: 42px;
 
       a {
         padding-bottom: 3px;
@@ -569,8 +600,11 @@
   }
 
   .featured-artists {
+    margin-bottom: 42px;
 
     .artist-title {
+      margin-top: 24px;
+      margin-bottom: 48px;
 
       h3 {
         font-size: 28px;
@@ -590,12 +624,12 @@
 
           .card-img {
             height: 150px;
-            width: 150px;
+            width: 185px;
           }
         }
 
         .card-text {
-          margin-left: 12px;
+          margin-left: 10px;
 
           .top-text {
             
@@ -606,5 +640,93 @@
         }
       }
     }
+
+    .more-btn {
+      display: none;
+    }
+  }
+
+  .sponsors-home {
+    padding: 38px 0 24px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #414246;
+    width: 100%;
+
+    h5 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: 'Lato', sans-serif;
+      color: #aeaeae;
+      font-size: 26px;
+      line-height: 28px;
+      font-weight: 400;
+
+      &::after {
+        margin-top: 24px;
+        content: '';
+        display: block;
+        position: relative;
+        height: 1px;
+        width: 40px;
+        background-color: #fa5039;
+      }
+    }
+
+    .partners-container {
+      width: 80vw;
+      margin-top: 12px;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+
+      img {
+        width: 130px;
+        height: 130px;
+      }
+    }
+  }
+
+  .footer-home {
+    margin: 42px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .footer-img {
+      height: 180px;
+      width: 180px;
+      margin-right: 55px;
+    }
+
+    .footer-text-container {
+      width: 40%;
+      margin-left: 55px;
+      
+      .footer-text {
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        color: $primaryBlack;
+      }
+
+      .footer-second-text {
+        line-height: 22px;
+        margin-top: 12px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        color: $primaryBlack;
+      }
+    }
+  }
+
+  .footer-mobile {
+    display: none;
   }
 }
