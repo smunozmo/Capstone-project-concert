@@ -158,6 +158,7 @@ Project Link: [https://github.com/jchernandez87/My-Portfolio](https://github.com
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
+* [Template Design By Cindy Shin](https://www.behance.net/adagio07)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [Img Shields](https://shields.io)
 * [GitHub Pages](https://pages.github.com)
