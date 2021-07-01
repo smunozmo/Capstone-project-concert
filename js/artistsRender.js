@@ -1,6 +1,6 @@
 /* eslint-disable linebreak-style */
+/* eslint-disable import/prefer-default-export */
 /* eslint-disable no-plusplus */
-/* eslint-disable linebreak-style */
 const artistContainer = document.querySelector('.artists-container');
 const displayMoreBtn = document.querySelector('.view-btn');
 const windowWidth = window.innerWidth;
@@ -43,8 +43,8 @@ const cardsInfo = [
   },
 ];
 
-function artistGenerator() {
-  for (let i = 0; i < cardsInfo.length; i++) {
+function artistGenerator(arr) {
+  for (let i = 0; i < arr.length; i++) {
     const card = document.createElement('ul');
     card.classList.add('card');
     artistContainer.appendChild(card);
@@ -53,7 +53,7 @@ function artistGenerator() {
     card.appendChild(imageContainer);
     const cardImg = document.createElement('div');
     cardImg.classList.add('card-img');
-    cardImg.style.backgroundImage = `url(${cardsInfo[i].imgUrl})`;
+    cardImg.style.backgroundImage = `url(${arr[i].imgUrl})`;
     imageContainer.appendChild(cardImg);
     const cardText = document.createElement('li');
     cardText.classList.add('card-text');
@@ -63,13 +63,13 @@ function artistGenerator() {
     cardText.appendChild(topText);
     const title = document.createElement('h4');
     title.classList.add('top-title');
-    title.textContent = cardsInfo[i].title;
+    title.textContent = arr[i].title;
     topText.appendChild(title);
     const topGenres = document.createElement('span');
     topGenres.classList.add('top-genres');
-    topGenres.textContent = cardsInfo[i].genres;
+    topGenres.textContent = arr[i].genres;
     const text = document.createElement('p');
-    text.textContent = cardsInfo[i].text;
+    text.textContent = arr[i].text;
     cardText.appendChild(text);
     topText.appendChild(topGenres);
     if (windowWidth <= 768 && i > 1) {

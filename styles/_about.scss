@@ -11,12 +11,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: 
+    background-image:
       linear-gradient(
-        90deg, rgba(236, 236, 236, 0.9) 
-        98%, rgba(236, 236, 236, 0.9) 
-        100%, rgba(216, 216, 216, 0.9) 100%), 
-        url(../assets/img/aboutHeadBack.jpg);
+        90deg,
+        rgba(236, 236, 236, 0.9)
+        98%,
+        rgba(236, 236, 236, 0.9)
+        100%,
+        rgba(216, 216, 216, 0.9) 100%
+      ),
+      url(../assets/img/aboutHeadBack.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -92,7 +96,7 @@
         font-weight: 600;
         color: $primaryBlack;
         text-decoration: underline;
-        
+
         i {
           transform: scale(0);
         }
@@ -340,16 +344,14 @@
 
 @media only screen and (min-width: 768px) {
   .about-container {
-
     .about-header {
-
       .top-icons-container {
         height: 60px;
         width: 74vw;
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
-    
+
         .top-icons-list {
           width: 180px;
           list-style-type: none;
@@ -357,16 +359,16 @@
           flex-direction: row;
           justify-content: space-around;
           align-items: center;
-    
+
           li {
             font-family: 'Lato', sans-serif;
             font-weight: 400;
             font-size: 14px;
-    
+
             .black {
               color: $primaryBlack;
             }
-    
+
             i {
               margin-left: 5px;
               color: $primaryRed;
@@ -376,7 +378,6 @@
       }
 
       .about-head-title {
-
         span {
           display: none;
         }
@@ -429,15 +430,15 @@
         margin-top: 48px;
         margin-bottom: 42px;
 
-        p {
+        .bottom-text {
           font-size: 16px;
           font-weight: 600;
         }
 
-        span {
+        .bottom-email {
           font-size: 16px;
-          
-          i {
+
+          .arrow {
             transform: scale(1);
             margin-left: 8px;
             color: #8d8d8d;
@@ -454,7 +455,6 @@
       margin-top: 48px;
 
       .logo-title {
-
         h3 {
           font-size: 28px;
           color: $primaryBlack;
@@ -486,7 +486,6 @@
     }
 
     .prev-fests {
-
       .prev-title {
         margin-top: 28px;
         margin-bottom: 44px;
@@ -503,7 +502,6 @@
           color: #8d8d8d;
         }
       }
-  
 
       .prev-cards {
         flex-direction: row;
@@ -558,7 +556,7 @@
       .footer-text-container {
         width: 40%;
         margin-left: 55px;
-        
+
         .footer-text {
           font-family: 'Lato', sans-serif;
           font-weight: 700;
