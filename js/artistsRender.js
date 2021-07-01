@@ -76,6 +76,7 @@ function artistGenerator(arr) {
       card.classList.add('hidden');
     }
     displayMoreBtn.addEventListener('click', () => {
+      displayMoreBtn.style.display = 'none';
       card.classList.remove('hidden');
     });
   }
