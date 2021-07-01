@@ -47,6 +47,7 @@ function artistGenerator() {
   for (let i = 0; i < cardsInfo.length; i++) {
     const card = document.createElement('ul');
     card.classList.add('card');
+    artistContainer.appendChild(card);
     const imageContainer = document.createElement('li');
     imageContainer.classList.add('card-image-container');
     card.appendChild(imageContainer);
@@ -71,7 +72,6 @@ function artistGenerator() {
     text.textContent = cardsInfo[i].text;
     cardText.appendChild(text);
     topText.appendChild(topGenres);
-    artistContainer.appendChild(card);
     if (windowWidth <= 768 && i > 1) {
       card.classList.add('hidden');
     }
