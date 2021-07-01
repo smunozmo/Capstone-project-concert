@@ -21,9 +21,7 @@
     <a href="https://github.com/jchernandez87Capstone-project-concert"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://jchernandez87.github.io/Capstone-project-concert/home.html">View Deploy For Home Mobile</a>
-    ·
-    <a href="https://jchernandez87.github.io/Capstone-project-concert/about.html">View Deploy For About Mobile</a>
+    <a href="https://jchernandez87.github.io/Capstone-project-concert/">View Deploy</a>
     ·
     <a href="https://github.com/jchernandez87/Capstone-project-concert/issues">Report Bug</a>
     ·
@@ -160,6 +158,7 @@ Project Link: [https://github.com/jchernandez87/My-Portfolio](https://github.com
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
+* [Template Design By Cindy Shin](https://www.behance.net/adagio07)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [Img Shields](https://shields.io)
 * [GitHub Pages](https://pages.github.com)
@@ -180,5 +179,5 @@ Project Link: [https://github.com/jchernandez87/My-Portfolio](https://github.com
 [issues-url]: https://github.com/jchernandez87/Capstone-project-concert/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/juan-carlos-hernandez-200a05175
-[product-screenshot]: https://user-images.githubusercontent.com/44485810/123848605-88d58a00-d8dd-11eb-9db9-8c2bb576301b.png
+[product-screenshot]: https://user-images.githubusercontent.com/44485810/124050039-51e79d00-d9df-11eb-80eb-bddb510c5171.png
 

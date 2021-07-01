@@ -14,32 +14,85 @@
   </head>
   <body>
     <div class="about-container">
+      <nav class="top-nav-desktop">
+        <ul>
+          <li><i class="fab fa-facebook-f"></i></li>
+          <li><i class="fab fa-twitter"></i></li>
+          <li>English</li>
+          <li>My Page</li>
+          <li>Logout</li>
+        </ul>
+      </nav>
+      <nav class="nav-desktop">
+        <div class="logo-top-container">
+          <a href="index.html"><img src="./assets/img/blues.png" alt="logo"></a>
+        </div>
+        <div class="nav-list-container">
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Program</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Sponsor</a></li>
+            <li><a href="#">News</a></li>
+          </ul>
+          <button class="btn-nav-desktop" type="button">Buy Tickets</button>
+        </div>
+      </nav>
+      <nav class="nav-mobile">
+        <button class="hamburger" type="button">
+          <i class="fa fa-bars fa-2x"></i>
+        </button>
+      </nav>
+      <div class="mobile-menu">
+        <div class="close-container">
+          <i class="fas fa-times fa-lg close-btn"></i>
+        </div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Artists</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a href="#">Schedule</a></li>
+          <li><a href="#">News</a></li>
+        </ul>
+      </div>
       <section class="about-header">
-        <nav>
-          <button type="button">
-            <i class="fa fa-bars fa-2x"></i>
-          </button>
-        </nav>
+        <div class="top-icons-container">
+          <ul class="top-icons-list">
+            <li>
+              <i class="fas fa-home black"></i>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </li>
+            <li>
+              <span>About</span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </li>
+            <li>
+              <span>Content</span>
+            </li>
+          </ul>
+        </div>
         <div class="about-head-title">
-          <span>"Hello! Sharing World"</span>
+          <span>"Hi! Fellow Blues Fans"</span>
           <h1>ALL THE BLUES FEST 2021</h1>
-          <p>A joyful believing in the value of openness and shring, creating a positive change with people over 80 countries is taking place in Octover, in Korea.creating a positive change with people over 80</p>
+          <p class="p-mobile">A joyful festival where people all around the world come together to enjoy live music, 40 of your favorite artists this year.</p>
+          <p class="p-desktop">Somebody’s Blues aims to explore the blues music scene and beyond. Hosted by Eric McElveen, Festival Director for the annual All the Bluesfest, this series looks at why this great American art form has such a prominent place in the region.We know many of you have been wondering and we don’t want to keep you waiting any longer. Like many other festival organizers, All The Blues Festival has made the difficult decision to postpone its 2020 event 2021. We were looking forward to bringing anothe.Like many other festival organizers, All The Blues Festival has made the difficult decision to postpone its 2020 event 2021. We were looking forward to bringing another…</p>
         </div>
         <div class="about-head-bottom">
-          <p>To reserve your tickers for all the blues fest 2021 please email Us!</p>
-          <span>allbluesfest2021@email.com</span>
+          <p class="bottom-text">To reserve your tickets for all the blues fest 2021 please email Us!</p>
+          <span class="bottom-email">allbluesfest2021@email.com<i class="fas fa-chevron-right fa-xs arrow"></i></span>
         </div>
       </section>
       <section class="logo-about">
         <div class="logo-title">
-          <h3>All Blues Fest<br>2021 Logo</h3>
-          <p>Our logo for this year festival was designed by our fans and voted online to choose the winner.</p>
+          <h3>All Blues Fest 2021 Logo</h3>
+          <p class="logo-text-mobile">Our logo for this year festival was designed by our fans and voted online to choose the winner.</p>
+          <p class="logo-text-desktop">Our logo for this year festival was designed by our fans and voted online to choose the winner. After the pools where closed we and we made the voting count John Cena was the winner with 60% percent of the votes.</p>
         </div>
         <div class="logo-img"></div>
       </section>
       <section class="prev-fests">
         <div class="prev-title">
-          <h3>Take a look to past years festivals</h3>
+          <h3>Take A Look To Past Years Festivals</h3>
           <p>See our festival lineups, feature artists, and events from previous years.</p>
         </div>
         <div class="prev-cards">
@@ -63,9 +116,17 @@
           <img src="./assets/img/dw.svg" alt="dw-logo">
         </div>
       </section>
-      <footer>
+      <footer class="footer-mobile">
         <img class="footer-img" src="./assets/img/blues.png" alt="blues-img">
         <p class="footer-text">2021 All Blues Fest.<br>All Rights Reserved</p>
+      </footer>
+      <footer class="footer-desktop">
+        <img class="footer-img" src="./assets/img/blues.png" alt="blues-img">
+        <div class="footer-text-container">
+          <p class="footer-text">Copyright © 1987-2021 All Blues Festival. All rights reserved.</p>
+          <p class="footer-second-text">The All Blues Festival is produced by the Magios Foundation, a not-for-profit organization.
+            Site photography provided by Person.</p>
+        </div>
       </footer>
     </div>
   </body>
