@@ -178,5 +178,5 @@ Project Link: [https://github.com/jchernandez87/My-Portfolio](https://github.com
 [issues-url]: https://github.com/jchernandez87/Capstone-project-concert/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/juan-carlos-hernandez-200a05175
-[product-screenshot]: https://user-images.githubusercontent.com/44485810/123848605-88d58a00-d8dd-11eb-9db9-8c2bb576301b.png
+[product-screenshot]: https://user-images.githubusercontent.com/44485810/124050039-51e79d00-d9df-11eb-80eb-bddb510c5171.png
 
