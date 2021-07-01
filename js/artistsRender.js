@@ -6,37 +6,37 @@ const displayMoreBtn = document.querySelector('.view-btn');
 const windowWidth = window.innerWidth;
 const cardsInfo = [
   {
-    imgUrl: '../assets/img/bandBack.jpeg',
+    imgUrl: './assets/img/bandBack.jpeg',
     title: 'The Blusy Brothers',
     genres: 'R&B / Fusion / Rock',
     text: 'King of the Delta Blues Singers, The Complete Recordings, King of the Delta Blues.',
   },
   {
-    imgUrl: '../assets/img/bandBack2.jpeg',
+    imgUrl: './assets/img/bandBack2.jpeg',
     title: 'Carl Weathersby',
     genres: 'Dance / Blues / Soul',
     text: 'King of the Delta Blues Singers, The Complete Recordings, King of the Delta Blues.',
   },
   {
-    imgUrl: '../assets/img/bandBack3.jpeg',
+    imgUrl: './assets/img/bandBack3.jpeg',
     title: 'Sherman Robertson',
     genres: 'Country / Blues / SoulJazz',
     text: 'King of the Delta Blues Singers, The Complete Recordings, King of the Delta Blues.',
   },
   {
-    imgUrl: '../assets/img/bandBack4.jpeg',
+    imgUrl: './assets/img/bandBack4.jpeg',
     title: 'Lonnie Shields',
     genres: 'Blues / Jazz / Soul',
     text: 'King of the Delta Blues Singers, The Complete Recordings, King of the Delta Blues.',
   },
   {
-    imgUrl: '../assets/img/bandBack5.jpeg',
+    imgUrl: './assets/img/bandBack5.jpeg',
     title: "Lil' Dave Thompson",
     genres: 'Rock / Jazz / Soul',
     text: 'King of the Delta Blues Singers, The Complete Recordings, King of the Delta Blues.',
   },
   {
-    imgUrl: '../assets/img/bandBack6.jpeg',
+    imgUrl: './assets/img/bandBack6.jpeg',
     title: 'Valerie Wellington',
     genres: 'Bluegrass / R&B / Soul',
     text: 'King of the Delta Blues Singers, The Complete Recordings, King of the Delta Blues.',
