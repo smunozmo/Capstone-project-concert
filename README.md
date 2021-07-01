@@ -21,9 +21,7 @@
     <a href="https://github.com/jchernandez87Capstone-project-concert"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://jchernandez87.github.io/Capstone-project-concert/home.html">View Deploy For Home Mobile</a>
-    ·
-    <a href="https://jchernandez87.github.io/Capstone-project-concert/about.html">View Deploy For About Mobile</a>
+    <a href="https://jchernandez87.github.io/Capstone-project-concert/">View Deploy</a>
     ·
     <a href="https://github.com/jchernandez87/Capstone-project-concert/issues">Report Bug</a>
     ·
