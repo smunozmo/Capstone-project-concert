@@ -198,7 +198,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #272a31;
+  background-image: url(../assets/img/pattern.png);
 }
 
 .main-program h3 {
@@ -405,6 +405,7 @@
 }
 
 .featured-artists .artists-container .card {
+  visibility: visible;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -501,6 +502,10 @@
   line-height: 18px;
 }
 
+.featured-artists .artists-container .card.hidden {
+  display: none;
+}
+
 .featured-artists .more-btn {
   margin: 0 0 24px 0;
   width: 90vw;
@@ -526,6 +531,44 @@
 }
 
 .footer-home {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #414246;
+  margin-top: 25px;
+  padding: 25px 0;
+}
+
+.footer-home .footer-img {
+  height: 60px;
+  width: 60px;
+}
+
+.footer-home .footer-text-container {
+  width: 60%;
+  margin-left: 35px;
+}
+
+.footer-home .footer-text-container .footer-text {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.footer-home .footer-text-container .footer-second-text {
   display: none;
 }
 

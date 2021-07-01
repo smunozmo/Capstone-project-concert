@@ -2,6 +2,8 @@
 /* eslint-disable no-plusplus */
 /* eslint-disable linebreak-style */
 const artistContainer = document.querySelector('.artists-container');
+const displayMoreBtn = document.querySelector('.view-btn');
+const windowWidth = window.innerWidth;
 const cardsInfo = [
   {
     imgUrl: '../assets/img/bandBack.jpeg',
@@ -42,7 +44,7 @@ const cardsInfo = [
 ];
 
 function artistGenerator() {
-  for (let i = 0; i <= cardsInfo.length; i++) {
+  for (let i = 0; i < cardsInfo.length; i++) {
     const card = document.createElement('ul');
     card.classList.add('card');
     const imageContainer = document.createElement('li');
@@ -70,6 +72,12 @@ function artistGenerator() {
     cardText.appendChild(text);
     topText.appendChild(topGenres);
     artistContainer.appendChild(card);
+    if (windowWidth <= 768 && i > 1) {
+      card.classList.add('hidden');
+    }
+    displayMoreBtn.addEventListener('click', () => {
+      card.classList.remove('hidden');
+    });
   }
 }
 
